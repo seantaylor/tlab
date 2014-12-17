@@ -7,7 +7,6 @@ group :test do
 end
 
 group :development do
-  gem 'spring'
   gem 'guard-bundler'
   gem 'guard-rspec'
 
@@ -19,4 +18,3 @@ end
 # Bundler will treat runtime dependencies like base dependencies, and
 # development dependencies will be added by default to the :development group.
 gemspec
-
